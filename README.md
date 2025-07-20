@@ -1,2 +1,2 @@
-# Zerodha_clone
-Building a clone of Zerodha trading web with basic functionalities
+# Portfolio frontend
+Building a basic portfolio frontend as a practice
