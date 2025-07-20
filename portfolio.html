@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>John Doe | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <!-- Navigation Bar -->
-    <nav style="text-align:justify">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-        <h1> John &nbsp;Doe</h1>
-        <hr>
-        <p>Computer Science Engineer | ML and devops Enthusiast | java Developer</p>
-        <hr>
+    <header class="hero" id="home">
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Theme</button>
+        </nav>
+        <div class="intro">
+            <h1>John Doe</h1>
+            <p>Computer Science Engineer | ML & DevOps Enthusiast | Java Developer</p>
+        </div>
     </header>
 
-    <!--about section-->
-    <section>
-        <h2>About Me</h2>
-        <hr>
-        <p>Hello! I’m John, a passionate Computer Science Engineering student currently in my 3rd year. I specialize in AI, backend Development, and Dev ops. I’ve worked on various projects, including face recognition, barcode scanning, and generative AI models.</p>
-        <hr>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m John, a passionate Computer Science Engineering student currently in my 3rd year. I specialize in AI, Backend Development, and DevOps. I’ve worked on various projects, including face recognition, barcode scanning, and generative AI models.</p>
+        </section>
 
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BE in Computer Science</strong> – [Your University] (Year of Graduation)</li>
+                <li>Relevant Coursework: AI, Machine Learning, Data Science, Web Development</li>
+            </ul>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><b>BE in Computer Science</b> - [Your University] (Year of Graduation)</li>
-            <li>Relevant Coursework: AI, Machine Learning, Data Science, Web Development</li>
-        </ul>
-        <hr>
-    </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Java, Python</li>
+                <li>Machine Learning & AI</li>
+                <li>Data Science (NumPy, Pandas, Matplotlib)</li>
+                <li>SQL, MongoDB, PostgreSQL</li>
+                <li>Cloud & Linux</li>
+            </ul>
+        </section>
 
-    <!--Skills section-->
-    <section>
-        <h2>Skills</h2>
-        <hr>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Java, Python</li>
-            <li>Machine Learning & AI</li>
-            <li>Data Science (NumPy, Pandas, Matplotlib)</li>
-            <li>SQL, MongoDB, PostgreSQL</li>
-            <li>Cloud & Linux</li>
-        </ul>
-        <hr>
-    </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Face Recognition Attendance System</strong> – Developed using KNN</li>
+                <li><strong>AI Chatbot</strong> – Built during NxtWave webinar</li>
+                <li><strong>Speech Emotion Recognition</strong> – Detects emotions from voice</li>
+                <li><strong>Live Sketch Using Webcam</strong> – AI-based image processing project</li>
+            </ul>
+        </section>
+    </main>
 
-    <!--Projects Section-->
-    <section>
-        <h2>Projects</h2>
-        <hr>
-        <ul>    
-            <li><b>Face Recognition Attendance System</b> -  Developed using KNN</li>
-            <li><b>AI Chatbot</b> - Built during NxtWave webinar</li>
-            <li><b>Speech Emotion Recognition</b> - Detects emotions from voice</li>
-            <li><b>Live Sketch Using Webcam</b> - AI-based image processing project</li> 
-        </ul>
-        <hr>
-    </section>
-    <!-- Contact Section -->
-    <footer>
+    <footer id="contact">
         <h2>Contact</h2>
-        <hr>
-        <p>Contact NO.:+911111111111
-        <p>Email: ?Johndoe@gmail.com</p>
-        <p>LinkedIn: <a href="www.linkedin.com/in/johndoe" target="_blank">Your LinkedIn</a></p>
-        <p>GitHub: <a href="https://github.com/johndoe" target="_blank">Your GitHub</a></p>
-        <p>Made with &hearts; by me sharavani &bigstar;</p>
-        <p>Copyright &COPY; reserved by shravani &reg;</p>
+        <p><strong>Phone:</strong> +91 11111 11111</p>
+        <p><strong>Email:</strong> johndoe@gmail.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></p>
+        <p>Made with ❤️ by John Doe</p>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
     </footer>
+    <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn?.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    });
+
+    window.onload = () => {
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    };
+</script>
+
 </body>
 </html>
